@@ -1,3 +1,10 @@
 def prime?(number)
-  for x in 2..number
-    if number%x = 0
+  max_number = number -1
+  for x in 2..max_number
+    if number%x == 0
+      return FALSE
+    end
+  end
+  #If not divisible by any number other than 1 or itself, is a prime
+  return TRUE
+end
