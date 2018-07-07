@@ -1,6 +1,6 @@
 def prime?(number)
   max_number = number -1
-  if number < 1 
+  if number <= 1 
     return FALSE
   else
     for x in 2..max_number
