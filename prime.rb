@@ -1,3 +1,3 @@
 def prime?(number)
-  i = 2 
-  for i 
+  for x in 2..number
+    
